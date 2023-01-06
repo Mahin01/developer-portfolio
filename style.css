@@ -1,0 +1,229 @@
+/* Universal css */
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    padding: 18px 35px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-primary{
+    color: #757575;
+}
+
+.primary-heading{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+main{
+    background:rgb(249, 249, 249);
+}
+/* header & navigation style */
+header{
+   background: #FFF8F3;
+   background-image: url(images/header_bg.png), url(images/developer.png);
+   background-repeat: no-repeat;
+   background-position: bottom right, left;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+nav .nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav .nav-title span{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Banner Styles */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.banner .author-intro{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner .author-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner .author-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* about section styles */
+.about-me{
+    background: #FFF8F3;
+    text-align: center;
+    margin: 120px 40px;
+    border-radius: 10px;
+    padding: 140px;
+}
+
+
+
+.about-me .about-description{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-me .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-section .text-primary{
+    font-size: 20px;
+}
+
+.info-section .info-data{
+    color: #474747;
+    font-size: 20px;
+}
+
+/* What I Do section styles */
+.what-i-do{
+    margin-bottom: 100px;
+}
+.what-i-do .work-title{
+    text-align: center;
+}
+
+.what-i-do .work-info{
+    display: flex;
+    margin: 0px 20px;
+    
+}
+
+.what-i-do .skill-info{
+    background: #ffffff;
+    box-shadow: 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.what-i-do .skill-title{
+    font-weight: 700;
+    font-weight: 45px;
+    margin: 20px 0px;
+}
+
+/* resume section styles */
+.resume-heading{
+    text-align: center;
+}
+.resume-info{
+    display: flex;
+}
+
+.resume-details{
+    margin: 0px 20px 0px 50px;
+}
+
+.resume-info .section-title{
+    margin-bottom: 30px;
+}
+
+.resume-info .course-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.resume-info .course-subtitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-info .course-info{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.resume-btn{
+    margin: 100px 0px;
+    margin-left: 40%;
+}
+
+/* contact me section design */
+.contact-item{
+    display: flex;
+    margin: 100px 50px 0px 50px;
+    padding: 140px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.contact-info{
+    margin-right: 80px;
+}
+
+.contact-item .contact-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.contact-item .contact-details{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info input{
+    outline: none;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0px 30px;
+    color: #757575;
+}
+
+.contact-info textarea{
+    outline: none;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    padding: 20px 30px;
+    color: #757575;
+}
+
